@@ -18,10 +18,7 @@ const Header = () => {
       <Link to="/">
         <img src={images.logo} className="logo" />
       </Link>
-      <button onClick={toggleMenu} className="toggle-button" type="button">
-        ☰
-      </button>
-      <ul className="options">
+      <ul className={`options ${menuOpen ? "open" : ""}`}>
         <li>
           <Link className="link" onClick={closeMenu} to="/">
             Home
@@ -38,7 +35,11 @@ const Header = () => {
           </Link>
         </li>
       </ul>
+      <button onClick={toggleMenu} className="toggle-button" type="button" aria-label="toggle-navigation">
+        ☰
+      </button>
       <div className="button-cont">
+     
         <p>
           <Link className="button-us" onClick={closeMenu} to="/contact">
             Contact us
