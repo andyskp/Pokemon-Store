@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
         </li>
         <li>
-          <Link className="link" onAbort={closeMenu} to="/about">
+          <Link className="link" onClick={closeMenu} to="/about">
             About
           </Link>
         </li>
@@ -35,11 +35,15 @@ const Header = () => {
           </Link>
         </li>
       </ul>
-      <button onClick={toggleMenu} className="toggle-button" type="button" aria-label="toggle-navigation">
+      <button
+        onClick={toggleMenu}
+        className="toggle-button"
+        type="button"
+        aria-label="toggle-navigation"
+      >
         ☰
       </button>
       <div className="button-cont">
-     
         <p>
           <Link className="button-us" onClick={closeMenu} to="/contact">
             Contact us
