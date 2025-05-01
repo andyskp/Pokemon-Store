@@ -1,6 +1,11 @@
+import Pokemon from "../services/pokemon";
+
 const Products = () => {
      return(
-          <div>Hola Products</div>
+          <div>
+               <Pokemon />
+          </div>
+          
      );
 }
 

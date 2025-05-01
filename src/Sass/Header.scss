@@ -36,6 +36,7 @@ $media-movil: 740px;
   list-style: none;
   display: flex;
   gap: 3rem;
+  margin-right: -12px;
 
   &.open {
     display: block;

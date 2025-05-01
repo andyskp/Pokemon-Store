@@ -1,0 +1,100 @@
+$color-white: #fff;
+$color-background-navbar: #0f224a;
+$color-border:rgba(0, 145, 255, 0.661);
+$background-card: rgba(239, 176, 4, 0.929);
+$background-card-transparent:rgba(255, 255, 255, 0.499) ;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Neon&display=swap");
+
+
+
+.title-menu {
+  font-family: "Tilt Neon", sans-serif;
+  color: $color-background-navbar;
+  text-align: center;
+  margin-top: 29px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap:90px;
+  justify-content: center;
+  margin: 90px;
+  .poke-hab {
+    list-style: none;
+    font-size: 13px;
+
+  }
+
+  .container-habilities {
+    padding-top: 12px;
+    padding: 12px;
+    font-family: "Tilt Neon", sans-serif;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-radius: 20px;
+
+   
+  }
+}
+.poke-img {
+  margin-top:  -56px;
+  border-radius: 50%;
+  width: 120px;
+  padding: 1px;
+ background: $background-card-transparent;
+}
+
+
+.list-pokemon {
+  margin-top: 12px;
+  border-radius: 20px;
+  border-radius: "10px";
+  padding: 12px;
+  width: 200px;
+  text-align: center;
+  background-color: $background-card;
+  box-shadow: 0px 0px 9px rgb(89, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+
+  .id-pokemon {
+    margin: 12px;
+  }
+}
+
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1ch;
+  display: flex;
+  place-items: center;
+  font-family: "Tilt Neon", sans-serif;
+  border-radius: 10px;
+  border: solid 1px gray;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: $color-background-navbar;
+  color: $color-white;
+  transition: 1s;
+  border: solid 1px $color-white;
+}
+
+.number-page {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.status-data {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 34px;
+}
+
+.container-button-controller {
+ display: flex;
+ place-items: center;
+ margin: 4px;
+}

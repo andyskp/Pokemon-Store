@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <Link to="/">
-        <img src={images.logo} className="logo" />
+        <img src={images.logo}  className="logo" />
       </Link>
       <ul className={`options ${menuOpen ? "open" : ""}`}>
         <li>
